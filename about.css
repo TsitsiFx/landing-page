@@ -1,0 +1,263 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  font-family: "Poppins", serif;;
+}
+
+.header-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 15rem;
+  background-image: linear-gradient(rgba(0,0,0.5) , rgba(0,0,0,0.3)), url("./images/section-bg-3.jpg");
+  color:rgba(240, 255, 255, 0.829);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.logo {
+  text-decoration: none;
+  margin-right: 70px;
+  color: azure;
+  font-family: 'Agu Display';font-size: 22px;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 70%;
+}
+.mad-studios {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+.nav-items {
+ list-style-type: none;
+ display: flex;
+ color:cornsilk;
+
+}
+.logo:hover {
+  color: yellow;
+  /* font-size: 50px;
+  font-style: italic;
+  font-weight: bold; */
+} 
+.nav-bar {
+display: inline-flex;
+justify-content: space-between;
+align-items: center;
+gap: 20px;
+font-size: 20px;
+font-family: cursive;
+
+
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 8px;
+}
+.fa {
+  margin-left: 60px;
+}
+.welcome{
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 60px;
+  opacity: 70%;
+}
+.mad {
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Alike Angular';
+  font-size: 60px;
+  opacity: 70%;
+}
+li:hover {
+  text-decoration-line: underline; 
+  text-underline-offset: 8px;
+}
+a{
+  text-decoration: none;
+}
+.explore-butt {
+  margin-left: 600px;
+  width: 175px;
+  height: 60px;
+  border-radius: 50px;
+  font-size: 20px;
+  background-color: blueviolet;
+  border: none;
+  color: rgb(232, 250, 250);
+  
+}
+.explore-butt:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+.section-1 {
+  width: 100%;
+  height: 100vh;
+}
+
+.image-1 {
+  display: block;
+  background-image: linear-gradient(rgba(0,0,0.5) , rgba(0,0,0,0.3)), url(./images/drums.jpg);
+  background-position: center;
+  background-attachment: scroll;
+  height: 400px;
+  width: 300px; 
+  border-radius: 7px;  
+}
+.image-2 {
+  display: block;
+  background-image: linear-gradient(rgba(0,0,0.5) , rgba(0,0,0,0.3)), url(./images/piano.jpg);
+  background-position: center;
+  background-attachment: scroll;
+  height: 400px;
+  width: 300px;
+  border-radius: 7px;  
+}
+.image-3 {
+  display: block;
+  background-image: linear-gradient(rgba(0,0,0.5) , rgba(0,0,0,0.3)), url(./images/violin.jpg);
+  background-position: center;
+  background-attachment: scroll;
+  height: 400px;
+  width: 300px;
+  border-radius: 7px;   
+}
+.services {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.services h1 {
+  font-family: 'Poppins';
+  font-size: 40px;
+}
+.services p {
+  font-size: 25px;
+  font-style: italic;
+  opacity: 60%;
+}
+.service-content {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.service-content p, .service-content h1 {
+  color: azure;
+  font-size: 20px;
+}
+.image-1,.image-2,.image-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.service-content button {
+  width: 150px;
+  height: 35px;
+  border-radius: 15px;
+  border: none;
+}
+.section-2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-image: linear-gradient(rgb(111, 111, 184) , rgba(117, 94, 94, 0.986)), url(./images/section-bg-3.jpg);
+  background-position: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 15px;
+
+}
+.testimonials {
+  background-color: white;
+  width: 60%;
+  height: 60vh;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.testimonials h1{
+  font-size: 25px;
+} 
+.testimonials p {
+  font-size: 20px;
+  font-style: italic;
+}
+.testimonials button {
+  width: 200px;
+  height: 60px;
+  background: rgb(2,0,36);
+background: linear-gradient(rgb(111, 111, 184) , rgba(117, 94, 94, 0.986));
+  border: none;
+  border-radius: 80px;
+  font-style: italic;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+  gap: 20px;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,90,1) 52%, rgba(0,212,255,1) 100%);
+color: azure;  
+}
+.form-details, .form-details-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.form-details input, select {
+  height: 30px;
+  border-radius: 30px;
+  border: none;
+}
+.form-details-button {
+  width: 60px;
+  height: 40px;
+}
+
+button, input {
+  font-family: 'Poppins';
+}
+button {
+  width: 175px;
+  height: 60px;
+  border-radius: 50px;
+  font-size: 20px;
+  background-color: blueviolet;
+  border: none;
+  color: white;
+}
